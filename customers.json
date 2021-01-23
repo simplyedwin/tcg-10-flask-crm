@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "first_name": "John",
+        "last_name": "Tan",
+        "email": "johntan@simi.com",
+        "sending_marketing_material": true
+    },
+    {
+        "id": 2,
+        "first_name": "Sabrina",
+        "last_name": "Spellman",
+        "email": "s.spellman@simi.com",
+        "sending_marketing_material": false
+    },
+    {
+        "id": 3,
+        "first_name": "Lucifer",
+        "last_name": "Morningstart",
+        "email": "l.morningstart@simi.com",
+        "sending_marketing_material": true
+    }
+]
