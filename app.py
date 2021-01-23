@@ -8,6 +8,7 @@ with open('customers.json') as file:
     database = json.load(file)
 print(database)
 
+
 @app.route('/')
 def home():
     return render_template('home.template.html')
@@ -15,7 +16,8 @@ def home():
 
 @app.route('/customer')
 def about():
-    return render_template('customer.template.html',db=database)
+    return render_template(
+        'customer.template.html', db=database)
 
 
 @app.route('/lucky')
